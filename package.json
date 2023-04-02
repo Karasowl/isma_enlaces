@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "uglify-js": "^3.17.4"
+  },
+  "scripts": {
+    "minify-css": "cssnano -o style.min.css style.css",
+    "minify-css2": "cssnano -o responsive.min.css responsive.css"
+  }
+}
