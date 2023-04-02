@@ -1,6 +1,6 @@
 /* Para que el perfil cambie de imagen con una transición de opacidad */
 const img = document.querySelector('.profile img');
-const images = ['assets/channels4_profile.jpg', 'assets/profile.webp', 'assets/35_n.jpg', 'assets/27_n.jpg', 'assets/112_n.jpg', 'assets/295_n.jpg', 'assets/612_n.jpg' ]; // array de imágenes
+const images = ['assets/channels4_profile.webp', 'assets/profile.webp', 'assets/35_n.webp', 'assets/27_n.webp', 'assets/112_n.webp', 'assets/295_n.webp', 'assets/612_n.webp' ]; // array de imágenes
 
 let i = 1; // contador
 function cambiarImagen() {
@@ -38,5 +38,15 @@ function handleMouseMove(e) {
     container.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
   });
 
+
+/* Para que el elemento embebido de Spotify se oculte para usuarios que visitan la página desde Cuba */
+  fetch('https://ipapi.co/json/')
+  .then(response => response.json())
+  .then(data => {
+    if (data.country_name === 'Cuba') {
+      const spotifyPlayer = document.querySelector('.spotify-player');
+      spotifyPlayer.style.display = 'none';
+    }
+  });
 
 
