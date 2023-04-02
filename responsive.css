@@ -1,42 +1,39 @@
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 575px) {
-    /* Estilos para dispositivos móviles */
+@media only screen and (max-width: 575px) {
+  /* Estilos para dispositivos móviles */
 
-    .spotify-player iframe {
-        position: relative;
-        max-width:  300px;
-        max-height: 100px;
-    }
-
-    .spotify-player h2 {
-        font-size: 13.7px;
-        margin-bottom: 10PX;
-    }
-
-    .container {
-        margin-top: 0px;
-    }
-
-
+  .spotify-player iframe {
+    position: relative;
+    max-width: 300px;
+    max-height: 100px;
   }
-  
-  /* Small Devices, Tablets */
-  /* @media only screen and (min-width : 576px) and (max-width : 767px) { */
-    /* Estilos para tablets */
-  /* } */
-  
-  /* Medium Devices, Desktops */
-  /* @media only screen and (min-width : 768px) and (max-width : 991px) { */
-    /* Estilos para pantallas medianas */
-  /* } */
-  
-  /* Large Devices, Wide Screens */
-  /* @media only screen and (min-width : 992px) and (max-width : 1199px) { */
-    /* Estilos para pantallas grandes */
-  /* } */
-  
-  /* Extra Large Devices, Large Screens */
-  /* @media only screen and (min-width : 1200px) { */
-    /* Estilos para pantallas extra grandes */
-  /* } */
-  
+
+  .spotify-player h2 {
+    font-size: 13.7px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    margin-top: 0px;
+  }
+}
+
+/* Small Devices, Tablets */
+/* @media only screen and (min-width : 576px) and (max-width : 767px) { */
+/* Estilos para tablets */
+/* } */
+
+/* Medium Devices, Desktops */
+/* @media only screen and (min-width : 768px) and (max-width : 991px) { */
+/* Estilos para pantallas medianas */
+/* } */
+
+/* Large Devices, Wide Screens */
+/* @media only screen and (min-width : 992px) and (max-width : 1199px) { */
+/* Estilos para pantallas grandes */
+/* } */
+
+/* Extra Large Devices, Large Screens */
+/* @media only screen and (min-width : 1200px) { */
+/* Estilos para pantallas extra grandes */
+/* } */
